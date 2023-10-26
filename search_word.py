@@ -1,0 +1,7 @@
+txt = input("Enter the String: ")
+print(txt)
+s=input("Enter the word you want to search: ")
+x = txt.casefold()
+s=s.casefold()
+c=x.count(s)
+print(c,"Times")
